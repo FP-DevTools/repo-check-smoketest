@@ -1,0 +1,11 @@
+name: Compliance
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  compliance:
+    uses: FP-DevTools/repo-standard-kit/.github/workflows/compliance.yml@develop
