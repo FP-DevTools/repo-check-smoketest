@@ -8,4 +8,6 @@ on:
 
 jobs:
   compliance:
-    uses: FP-DevTools/repo-standard-kit/.github/workflows/compliance.yml@develop
+    uses: FP-DevTools/repo-standard-kit/.github/workflows/compliance.yml@fix/compliance-workflow-ref-resolution
+    with:
+      ref: fix/compliance-workflow-ref-resolution
